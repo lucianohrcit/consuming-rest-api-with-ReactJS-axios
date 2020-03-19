@@ -24,7 +24,7 @@ class Hello extends React.Component {
         const posts = this.state.posts;
         return (
             <div>
-                <span style={{fontWeight:'bold'}}>Id:{posts.id} </span> Content:{posts.content}
+                <b>Id:</b>{posts.id} <b>Content:</b>{posts.content}
             </div>
         );
     }
